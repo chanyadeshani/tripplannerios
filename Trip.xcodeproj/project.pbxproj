@@ -14,6 +14,9 @@
 		F19DFA6A20E87AE800E66877 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19DFA6820E87AE800E66877 /* LaunchScreen.storyboard */; };
 		F19DFA7520E87AE800E66877 /* TripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19DFA7420E87AE800E66877 /* TripTests.swift */; };
 		F19DFA8020E87AE800E66877 /* TripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19DFA7F20E87AE800E66877 /* TripUITests.swift */; };
+		F19DFA9220E8881400E66877 /* FruitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19DFA9120E8881400E66877 /* FruitsTableViewController.swift */; };
+		F19DFA9320E8881400E66877 /* FruitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19DFA9120E8881400E66877 /* FruitsTableViewController.swift */; };
+		F19DFA9420E8881400E66877 /* FruitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19DFA9120E8881400E66877 /* FruitsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,7 @@
 		F19DFA7B20E87AE800E66877 /* TripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19DFA7F20E87AE800E66877 /* TripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripUITests.swift; sourceTree = "<group>"; };
 		F19DFA8120E87AE800E66877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F19DFA9120E8881400E66877 /* FruitsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 				F19DFA6620E87AE800E66877 /* Assets.xcassets */,
 				F19DFA6820E87AE800E66877 /* LaunchScreen.storyboard */,
 				F19DFA6B20E87AE800E66877 /* Info.plist */,
+				F19DFA9120E8881400E66877 /* FruitsTableViewController.swift */,
 			);
 			path = Trip;
 			sourceTree = "<group>";
@@ -257,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F19DFA6220E87AE800E66877 /* ViewController.swift in Sources */,
+				F19DFA9220E8881400E66877 /* FruitsTableViewController.swift in Sources */,
 				F19DFA6020E87AE800E66877 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F19DFA9320E8881400E66877 /* FruitsTableViewController.swift in Sources */,
 				F19DFA7520E87AE800E66877 /* TripTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F19DFA9420E8881400E66877 /* FruitsTableViewController.swift in Sources */,
 				F19DFA8020E87AE800E66877 /* TripUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
