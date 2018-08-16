@@ -29,7 +29,16 @@ class TripUITests: XCTestCase {
     }
     
     func testExample() {
-        // Use recording to get started writing UI tests.
+        
+        let app = XCUIApplication()
+        let tablesQuery = app.tables
+        tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["Day 1"]/*[[".cells.staticTexts[\"Day 1\"]",".staticTexts[\"Day 1\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        
+        let backButton = app.navigationBars["Trip.FruitsTableView"].buttons["Back"]
+        backButton.tap()
+        tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["Day 2"]/*[[".cells.staticTexts[\"Day 2\"]",".staticTexts[\"Day 2\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        backButton.tap()
+                // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
